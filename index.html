@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Profesional</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <!-- Tambahan Font Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Tambahan Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Tambahan Swiper.js -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-logo">Lilik Ning Handayani</div>
+        <ul class="nav-links">
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#tentang">Tentang</a></li>
+            <li><a href="#pengalaman">Pengalaman</a></li>
+            <li><a href="#keahlian">Keahlian</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>
+
+    <!-- Tambahkan theme-toggle di luar navbar -->
+    <div class="theme-toggle">
+        <input type="checkbox" id="darkmode-toggle"/>
+        <label for="darkmode-toggle">
+            <i class="fas fa-sun sun"></i>
+            <i class="fas fa-moon moon"></i>
+        </label>
+    </div>
+
+    <!-- Tambahkan ini setelah navbar dan sebelum main content -->
+    <div class="notification-container">
+        <!-- Notifikasi akan di-inject oleh JavaScript -->
+    </div>
+
+    <!-- Hero Section yang Ditingkatkan -->
+    <section id="beranda" class="hero">
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-right">
+                <span class="welcome-text">Selamat Datang</span>
+                <h1>Saya <span class="highlight">Lilik Ning Handayani</span></h1>
+                <h2>Profesional Kasir & Customer Service</h2>
+                <p class="hero-description">Berpengalaman dalam memberikan pelayanan pelanggan terbaik dan pengelolaan transaksi yang akurat</p>
+                <div class="hero-buttons">
+                    <a href="#kontak" class="primary-btn">Hubungi Saya</a>
+                    <a href="#portfolio" class="secondary-btn">Lihat Portfolio</a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <img src="sudah.png" alt="Foto Profil">
+                <div class="experience-badge">
+                    <span>1+</span>
+                    <p>Tahun Pengalaman</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section id="statistik" class="statistics">
+        <!-- Background Glow Elements -->
+        <div class="bg-glow"></div>
+        <div class="bg-glow"></div>
+        
+        <div class="section-header">
+            <h2>Statistik Pencapaian</h2>
+            <p>Pencapaian dan pengalaman dalam angka</p>
+        </div>
+        
+        <div class="stats-container">
+            <div class="stats-grid">
+                <div class="stat-item" data-aos="fade-up">
+                    <div class="stat-decoration"></div>
+                    <i class="fas fa-clock stat-icon"></i>
+                    <div class="stat-number-container">
+                        <span class="stat-number counter" data-target="1">0</span>
+                        <span class="stat-suffix">+</span>
+                    </div>
+                    <p class="stat-label">Tahun Pengalaman</p>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-decoration"></div>
+                    <i class="fas fa-cash-register stat-icon"></i>
+                    <div class="stat-number-container">
+                        <span class="stat-number counter" data-target="250">0</span>
+                        <span class="stat-suffix">+</span>
+                    </div>
+                    <p class="stat-label">Transaksi per Hari</p>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-decoration"></div>
+                    <i class="fas fa-smile-beam stat-icon"></i>
+                    <div class="stat-number-container">
+                        <span class="stat-number counter" data-target="98">0</span>
+                        <span class="stat-suffix">%</span>
+                    </div>
+                    <p class="stat-label">Kepuasan Pelanggan</p>
+                </div>
+            </div>
+            <div class="scroll-indicator"></div>
+        </div>
+    </section>
+
+    <!-- About Section yang Ditingkatkan -->
+    <section id="tentang" class="about">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="subtitle">Tentang Saya</span>
+                <h2>Mengenal Lebih Dekat</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="about.png" alt="About Image">
+                </div>
+                <div class="about-text" data-aos="fade-left">
+                    <h3>Profesional Kasir dengan Passion di Bidang Pelayanan</h3>
+                    <p>Saya adalah seorang kasir profesional dengan pengalaman dalam memberikan pelayanan terbaik kepada pelanggan. Dengan dedikasi tinggi dalam akurasi dan kepuasan pelanggan, saya selalu berusaha memberikan pengalaman berbelanja yang menyenangkan.</p>
+                    <ul class="about-list">
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Pengelolaan transaksi keuangan dengan akurasi tinggi</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Pelayanan pelanggan yang ramah dan profesional</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Pengoperasian berbagai sistem POS modern</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i>
+                            <span>Penanganan keluhan pelanggan dengan efektif</span>
+                        </li>
+                    </ul>
+                    <div class="about-buttons">
+                        <a href="#" class="download-cv">
+                            Download CV 
+                            <i class="fas fa-download"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="pengalaman" class="experience">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="subtitle">Pengalaman Kerja</span>
+                <h2>Perjalanan Karir</h2>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-up">
+                    <div class="timeline-dot">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-info">
+                                <span class="date">
+                                    <i class="far fa-calendar-alt"></i>
+                                    2023 - Sekarang
+                                </span>
+                                <div class="company-badge">
+                                    <i class="fas fa-search"></i>
+                                    Open to Work
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Professional Career Development</h3>
+                        <div class="timeline-details">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Aktif mengembangkan keterampilan dalam bidang customer service dan retail management</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Fokus pada peningkatan kompetensi digital marketing dan manajemen bisnis</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Terbuka untuk peluang karir yang sesuai dengan latar belakang pendidikan dan pengalaman</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="timeline-dot">
+                        <i class="fas fa-cash-register"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-info">
+                                <span class="date">
+                                    <i class="far fa-calendar-alt"></i>
+                                    2023 - 2025
+                                </span>
+                                <div class="company-badge">
+                                    <i class="fas fa-building"></i>
+                                    CV. Hurairah
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Kasir</h3>
+                        <div class="timeline-details">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Menangani rata-rata 200+ transaksi per hari dengan akurasi tinggi</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Meningkatkan kepuasan pelanggan hingga 95% melalui pelayanan prima</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="timeline-dot">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div class="timeline-info">
+                                <span class="date">
+                                    <i class="far fa-calendar-alt"></i>
+                                    2020 - 2023
+                                </span>
+                                <div class="company-badge">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    SMK Negeri 1 Pekanbaru
+                                </div>
+                            </div>
+                        </div>
+                        <h3>Bisnis Daring dan Pemasaran</h3>
+                        <div class="timeline-details">
+                            <ul>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Mempelajari strategi pemasaran digital dan manajemen bisnis online</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Menguasai teknik pelayanan pelanggan dan komunikasi bisnis</span>
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    <span>Mengembangkan kemampuan dalam pengelolaan transaksi dan administrasi penjualan</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section yang Ditingkatkan -->
+    <section id="keahlian" class="skills">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="subtitle">Keahlian</span>
+                <h2>Kemampuan Profesional</h2>
+            </div>
+            
+            <div class="skills-grid">
+                <div class="skill-card" data-aos="zoom-in">
+                    <div class="skill-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Operasi Kasir</h3>
+                    <p>Mahir mengoperasikan mesin kasir dan POS</p>
+                    <div class="skill-level">Expert</div>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="skill-icon">
+                        <i class="fas fa-coins"></i>
+                    </div>
+                    <h3>Pengelolaan Uang</h3>
+                    <p>Akurat dalam perhitungan dan pengelolaan uang</p>
+                    <div class="skill-level">Advanced</div>
+                </div>
+                <div class="skill-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="skill-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Pelayanan Pelanggan</h3>
+                    <p>Komunikasi yang baik dan ramah dengan pelanggan</p>
+                    <div class="skill-level">Expert</div>
+                </div>
+            </div>
+            
+            <div class="skills-categories">
+                <div class="skill-category" data-aos="fade-up">
+                    <h3>Technical Skills</h3>
+                    <div class="progress-bars">
+                        <div class="progress-item">
+                            <div class="progress-header">
+                                <div class="skill-info">
+                                    <i class="fas fa-desktop"></i>
+                                    <span>Sistem POS</span>
+                                </div>
+                                <span class="percentage">95%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" data-progress="95">
+                                    <div class="progress-glow"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-header">
+                                <div class="skill-info">
+                                    <i class="fas fa-file-excel"></i>
+                                    <span>Microsoft Office</span>
+                                </div>
+                                <span class="percentage">85%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" data-progress="85">
+                                    <div class="progress-glow"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-item">
+                            <div class="progress-header">
+                                <div class="skill-info">
+                                    <i class="fas fa-cash-register"></i>
+                                    <span>Manajemen Kas</span>
+                                </div>
+                                <span class="percentage">90%</span>
+                            </div>
+                            <div class="progress">
+                                <div class="progress-bar" data-progress="90">
+                                    <div class="progress-glow"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section yang Ditingkatkan -->
+    <section id="kontak" class="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="subtitle">Kontak</span>
+                <h2>Hubungi Saya</h2>
+                <p>Silakan hubungi saya untuk informasi lebih lanjut</p>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info" data-aos="fade-right">
+                    <div class="contact-card">
+                        <div class="contact-item">
+                            <div class="icon-box">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Telepon</h4>
+                                <p>+62 878-4196-9879</p>
+                                <a href="tel:+6212345678" class="contact-link">Hubungi Sekarang</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-item">
+                            <div class="icon-box">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <p>lilikningh@gmail.com</p>
+                                <a href="mailto:lilikningh@gmail.com" class="contact-link">Kirim Email</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-item">
+                            <div class="icon-box">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Lokasi</h4>
+                                <p>jalan payung sekaki no.9</p>
+                                <a href="https://maps.app.goo.gl/V3MpmzyxPYyEA2JYA" class="contact-link">Lihat di Maps</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form" data-aos="fade-left">
+                    <div class="form-card">
+                        <h3>Kirim Pesan</h3>
+                        <form id="contactForm" onsubmit="return false;">
+                            <div class="input-group">
+                                <div class="input-box">
+                                    <label for="name">Nama Lengkap</label>
+                                    <input type="text" id="name" placeholder="Masukkan nama anda" required>
+                                </div>
+                                <div class="input-box">
+                                    <label for="email">Email</label>
+                                    <input type="email" id="email" placeholder="Masukkan email anda" required>
+                                </div>
+                            </div>
+                            <div class="input-box">
+                                <label for="subject">Subjek</label>
+                                <input type="text" id="subject" placeholder="Subjek pesan" required>
+                            </div>
+                            <div class="input-box">
+                                <label for="message">Pesan</label>
+                                <textarea id="message" placeholder="Tulis pesan anda" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">
+                                <span>Kirim Pesan</span>
+                                <i class="fas fa-paper-plane"></i>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer yang Ditingkatkan -->
+    <footer class="footer">
+        <div class="footer-waves">
+            <div class="wave"></div>
+        </div>
+        
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <div class="footer-brand">
+                        <h3>Lilik Ning Handayani</h3>
+                        <p>Profesional kasir dengan dedikasi tinggi dalam memberikan pelayanan terbaik.</p>
+                    </div>
+                    <div class="footer-contact">
+                        <h4>Kontak Cepat</h4>
+                        <p><i class="fas fa-phone"></i> +62 123 4567 890</p>
+                        <p><i class="fas fa-envelope"></i> email@example.com</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Jakarta, Indonesia</p>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-nav">
+                        <h4>Menu Utama</h4>
+                        <ul>
+                            <li><a href="#beranda">Beranda</a></li>
+                            <li><a href="#tentang">Tentang</a></li>
+                            <li><a href="#keahlian">Keahlian</a></li>
+                            <li><a href="#pengalaman">Pengalaman</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-social">
+                        <h4>Social Media</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-btn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/llk.andani_/" class="social-btn"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-btn"><i class="fab fa-twitter"></i></a>
+                        </div>
+                        <div class="footer-map">
+                            <iframe 
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d514.6706358216841!2d101.39749479252335!3d0.506296322835019!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31d5a9434927ba8d%3A0x180e274982980ff4!2sJl.%20Payung%20Sekaki%20No.9%2C%20Labuh%20Baru%20Bar.%2C%20Kec.%20Payung%20Sekaki%2C%20Kota%20Pekanbaru%2C%20Riau%2028292!5e0!3m2!1sid!2sid!4v1741290140755!5m2!1sid!2sid" 
+                                style="border:0;" 
+                                allowfullscreen="" 
+                                loading="lazy" 
+                                referrerpolicy="no-referrer-when-downgrade">
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="copyright">
+                    <p>&copy; 2025 Lilik Ning Handayani. All rights reserved.</p>
+                </div>
+                <div class="footer-extra">
+                    <a href="#">Privacy Policy</a>
+                    <span class="separator">•</span>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+    <!-- EmailJS harus dimuat sebelum main.js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("yOw-aW926ETEYULaX");
+        })();
+    </script>
+
+    <!-- main.js harus dimuat terakhir -->
+    <script src="js/main.js"></script>
+</body>
+</html> 

@@ -1,0 +1,343 @@
+/* Dark Mode Theme */
+[data-theme="dark"] {
+    /* Variables */
+    --text-color: #e2e8f0;
+    --light-bg: #1e293b;
+    --dark-bg: #0f172a;
+    --card-bg: #1e293b;
+    --border-color: rgba(55, 65, 81, 0.5);
+    --navbar-bg: rgba(15, 23, 42, 0.98);
+}
+
+/* Base Styles */
+[data-theme="dark"] body {
+    background-color: var(--dark-bg);
+    color: var(--text-color);
+}
+
+/* Navbar Dark */
+[data-theme="dark"] .navbar {
+    background: var(--navbar-bg);
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] .nav-links a {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .nav-links a:hover {
+    color: #60a5fa;
+    background: rgba(37, 99, 235, 0.15);
+}
+
+[data-theme="dark"] .nav-links a.active {
+    color: #60a5fa;
+    background: rgba(37, 99, 235, 0.2);
+}
+
+[data-theme="dark"] .nav-links a.active::after {
+    opacity: 0.15;
+}
+
+@media screen and (max-width: 992px) {
+    [data-theme="dark"] .nav-links a:hover {
+        background: rgba(37, 99, 235, 0.2);
+    }
+
+    [data-theme="dark"] .nav-links a.active {
+        background: rgba(37, 99, 235, 0.25);
+    }
+}
+
+[data-theme="dark"] .burger div {
+    background: var(--text-color);
+}
+
+/* Sections Dark */
+[data-theme="dark"] .hero,
+[data-theme="dark"] .about,
+[data-theme="dark"] .skills,
+[data-theme="dark"] .experience,
+[data-theme="dark"] .contact {
+    background: var(--dark-bg);
+}
+
+/* Cards Dark */
+[data-theme="dark"] .card,
+[data-theme="dark"] .skill-card,
+[data-theme="dark"] .timeline-content,
+[data-theme="dark"] .form-card,
+[data-theme="dark"] .contact-card,
+[data-theme="dark"] .progress-item {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Card Hover Effects Dark */
+[data-theme="dark"] .card:hover,
+[data-theme="dark"] .skill-card:hover,
+[data-theme="dark"] .timeline-content:hover,
+[data-theme="dark"] .progress-item:hover {
+    background: var(--light-bg);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border-color: rgba(59, 130, 246, 0.3);
+}
+
+/* Card Content Colors Dark */
+[data-theme="dark"] .card h3,
+[data-theme="dark"] .skill-card h3,
+[data-theme="dark"] .progress-header,
+[data-theme="dark"] .skill-info,
+[data-theme="dark"] .percentage {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .card p,
+[data-theme="dark"] .skill-card p {
+    color: #94a3b8;
+}
+
+/* Text Colors Dark */
+[data-theme="dark"] .section-header h2,
+[data-theme="dark"] .about-text h3,
+[data-theme="dark"] .skill-card h3,
+[data-theme="dark"] .timeline-header h3 {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] p {
+    color: #94a3b8;
+}
+
+/* Form Elements Dark */
+[data-theme="dark"] input,
+[data-theme="dark"] textarea {
+    background: var(--dark-bg);
+    border-color: var(--border-color);
+    color: var(--text-color);
+}
+
+/* Footer Dark Mode */
+[data-theme="dark"] .footer {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    border-top: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+[data-theme="dark"] .footer::before {
+    background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.03), transparent);
+}
+
+[data-theme="dark"] .footer-links a,
+[data-theme="dark"] .footer-contact-info li {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+[data-theme="dark"] .footer-social a {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.08);
+}
+
+[data-theme="dark"] .footer-social a:hover {
+    background: var(--primary-color);
+    border-color: transparent;
+    color: white;
+}
+
+[data-theme="dark"] .footer-bottom {
+    border-color: rgba(255, 255, 255, 0.05);
+}
+
+[data-theme="dark"] .footer-brand h3 {
+    color: white;
+}
+
+[data-theme="dark"] .footer-brand p {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* Progress Bars Dark */
+[data-theme="dark"] .progress {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Timeline Elements Dark */
+[data-theme="dark"] .timeline-dot {
+    background: var(--dark-bg);
+    border-color: var(--primary-color);
+}
+
+/* Mobile Nav Dark */
+@media screen and (max-width: 992px) {
+    [data-theme="dark"] .nav-links {
+        background: var(--navbar-bg);
+    }
+}
+
+/* Dark Mode Toggle Specific */
+[data-theme="dark"] .theme-toggle label:hover {
+    background: #0f172a;
+}
+
+[data-theme="dark"] .theme-toggle label::after {
+    background: #1e293b;
+}
+
+/* Timeline Dark Mode */
+[data-theme="dark"] .timeline-content {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .timeline-content::before {
+    border-color: transparent var(--card-bg) transparent var(--card-bg);
+}
+
+[data-theme="dark"] .timeline-item:nth-child(odd) .timeline-content::before {
+    border-color: transparent transparent transparent var(--card-bg);
+}
+
+[data-theme="dark"] .timeline-item:nth-child(even) .timeline-content::before {
+    border-color: transparent var(--card-bg) transparent transparent;
+}
+
+[data-theme="dark"] .timeline::before {
+    opacity: 0.2;
+}
+
+[data-theme="dark"] .timeline-content:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .timeline-info .date,
+[data-theme="dark"] .timeline-details li {
+    color: #94a3b8;
+}
+
+[data-theme="dark"] .company-badge {
+    background: rgba(37, 99, 235, 0.2);
+}
+
+[data-theme="dark"] .timeline-content h3 {
+    color: var(--text-color);
+}
+
+/* Skills Categories Dark Mode */
+[data-theme="dark"] .skills-categories {
+    background: var(--dark-bg);
+}
+
+[data-theme="dark"] .skill-category h3 {
+    color: var(--text-color);
+}
+
+/* Skills Category Dark Mode */
+[data-theme="dark"] .skill-category {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] .skill-category h3 {
+    color: var(--text-color);
+}
+
+[data-theme="dark"] .skill-category:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    border-color: rgba(59, 130, 246, 0.3);
+}
+
+/* Progress Items in Dark Mode */
+[data-theme="dark"] .progress-item {
+    background: var(--dark-bg);
+    border: 1px solid var(--border-color);
+}
+
+[data-theme="dark"] .progress-item:hover {
+    background: var(--card-bg);
+    border-color: rgba(59, 130, 246, 0.3);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Progress Bar Colors in Dark Mode */
+[data-theme="dark"] .progress {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+[data-theme="dark"] .progress-bar {
+    background: var(--gradient);
+}
+
+[data-theme="dark"] .progress-glow {
+    background: var(--primary-color);
+    opacity: 0.3;
+    filter: blur(8px);
+}
+
+/* Hero Image Dark Mode */
+[data-theme="dark"] .hero-image {
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .hero-image::before {
+    background: linear-gradient(
+        180deg,
+        transparent 0%,
+        rgba(15, 23, 42, 0.2) 100%
+    );
+}
+
+[data-theme="dark"] .hero-image::after {
+    background: linear-gradient(
+        45deg,
+        rgba(37, 99, 235, 0.3),
+        rgba(6, 182, 212, 0.4)
+    );
+}
+
+[data-theme="dark"] .hero-image img {
+    filter: contrast(1.2) saturate(1.1) brightness(0.8);
+}
+
+/* Experience Badge Dark Mode */
+[data-theme="dark"] .experience-badge {
+    background: rgba(30, 41, 59, 0.95);
+    border: 1px solid rgba(37, 99, 235, 0.2);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+[data-theme="dark"] .experience-badge p {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+[data-theme="dark"] .experience-badge:hover {
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+}
+
+/* Theme Toggle Dark Mode */
+[data-theme="dark"] .theme-toggle label {
+    background: var(--primary-color);
+    border-color: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] .theme-toggle i {
+    color: white;
+}
+
+[data-theme="dark"] .theme-toggle label:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Floating Theme Toggle Dark Mode */
+@media screen and (max-width: 992px) {
+    [data-theme="dark"] .theme-toggle label {
+        background: var(--primary-color);
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    [data-theme="dark"] .theme-toggle label:hover {
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    }
+} 
